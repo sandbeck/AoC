@@ -18,7 +18,7 @@ def b(input):
             count += 1
     return count
 
-with open('input.txt', 'r') as input:
+with open('01/input.txt', 'r') as input:
     numbers = list(map(int, input))
     result = a(numbers)
     print('result of a:')
