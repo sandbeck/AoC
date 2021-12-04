@@ -8,9 +8,6 @@ def a(input):
         prev = line
     return count
 
-def compare(a, b, c, d):
-    print('a:{a} b:{b} c:{c} d:{d}')
-
 def b(input):
     count = 0
     for index, number in enumerate(input):
